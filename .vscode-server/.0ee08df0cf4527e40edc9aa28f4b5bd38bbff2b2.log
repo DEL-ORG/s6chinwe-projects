@@ -1,0 +1,138 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:42241 (IPv4)
+Extension host agent listening on 42241
+
+[18:04:03] 
+
+
+
+
+[18:04:03] Extension host agent started.
+[18:04:04] [127.0.0.1][c5eb86a4][ManagementConnection] New connection established.
+[18:04:04] [127.0.0.1][08dba1eb][ExtensionHostConnection] New connection established.
+[18:04:14] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[18:04:14] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+[18:04:14] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[18:04:14] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[18:04:14] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[18:04:14] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[18:04:14] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[18:04:14] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[18:04:14] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[18:04:14] [127.0.0.1][08dba1eb][ExtensionHostConnection] <632464> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[18:09:03] New EH opened, aborting shutdown
+[18:15:17] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[18:15:19] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[19:15:39] [127.0.0.1][08dba1eb][ExtensionHostConnection] The client has reconnected.
+[19:46:35] [127.0.0.1][c5eb86a4][ManagementConnection] The client has reconnected.
+[19:46:36] [127.0.0.1][08dba1eb][ExtensionHostConnection] The client has reconnected.
+[19:54:39] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+[19:54:39] [127.0.0.1][c5eb86a4][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[20:03:52] [127.0.0.1][c5eb86a4][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[20:03:52] [127.0.0.1][c5eb86a4][ManagementConnection] The client has reconnected.
+[20:03:52] [127.0.0.1][08dba1eb][ExtensionHostConnection] The client has reconnected.
+[20:21:17] [127.0.0.1][c5eb86a4][ManagementConnection] The client has reconnected.
+[20:21:17] [127.0.0.1][08dba1eb][ExtensionHostConnection] The client has reconnected.
+[20:38:43] [127.0.0.1][c5eb86a4][ManagementConnection] The client has reconnected.
+[20:38:43] [127.0.0.1][08dba1eb][ExtensionHostConnection] The client has reconnected.
+[20:46:44] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+[20:46:44] [127.0.0.1][c5eb86a4][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[21:30:39] [127.0.0.1][c5eb86a4][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[21:30:39] [127.0.0.1][c5eb86a4][ManagementConnection] The client has reconnected.
+[21:30:39] [127.0.0.1][08dba1eb][ExtensionHostConnection] The client has reconnected.
+[21:39:55] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+[21:39:55] [127.0.0.1][c5eb86a4][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[21:55:56] [127.0.0.1][c5eb86a4][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[21:55:56] [127.0.0.1][c5eb86a4][ManagementConnection] The client has reconnected.
+[21:55:56] [127.0.0.1][08dba1eb][ExtensionHostConnection] The client has reconnected.
+[23:55:47] [127.0.0.1][c5eb86a4][ManagementConnection] The client has reconnected.
+[23:55:48] [127.0.0.1][08dba1eb][ExtensionHostConnection] The client has reconnected.
+[00:03:50] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+[00:03:50] [127.0.0.1][c5eb86a4][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[00:05:34] [127.0.0.1][c5eb86a4][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[00:05:34] [127.0.0.1][c5eb86a4][ManagementConnection] The client has reconnected.
+[00:05:34] [127.0.0.1][08dba1eb][ExtensionHostConnection] The client has reconnected.
+[00:06:50] [127.0.0.1][08dba1eb][ExtensionHostConnection] The client has reconnected.
+[00:37:45] [127.0.0.1][c5eb86a4][ManagementConnection] The client has reconnected.
+[00:37:45] [127.0.0.1][08dba1eb][ExtensionHostConnection] The client has reconnected.
+[00:52:34] [127.0.0.1][c5eb86a4][ManagementConnection] The client has reconnected.
+[00:52:35] [127.0.0.1][08dba1eb][ExtensionHostConnection] The client has reconnected.
+[02:01:43] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:01:43] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:54:21] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:54:22] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:23:29] [127.0.0.1][08dba1eb][ExtensionHostConnection] The client has reconnected.
+[07:23:43] [127.0.0.1][08dba1eb][ExtensionHostConnection] <632464> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[07:23:43] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[07:28:43] Last EH closed, shutting down

@@ -1,0 +1,75 @@
+2024-01-17 18:30:37.979 [info] Log level: Info
+2024-01-17 18:30:37.979 [info] Validating found git in: "git"
+2024-01-17 18:30:37.979 [info] Using git "2.34.1" from "git"
+2024-01-17 18:30:37.979 [info] > git rev-parse --show-toplevel [32ms]
+2024-01-17 18:30:37.979 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:30:37.979 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:30:37.979 [info] fatal: detected dubious ownership in repository at '/home/s6chinwe/espresso/S6-PROJECTS'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/s6chinwe/espresso/S6-PROJECTS
+2024-01-17 18:30:37.979 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 18:30:37.979 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:32:46.779 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-17 18:32:46.779 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:32:50.503 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:32:50.503 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:37:09.979 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:37:09.979 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:38:29.549 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:38:29.549 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:39:01.735 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 18:39:01.735 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:39:01.742 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 18:39:01.742 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:40:24.093 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:40:24.093 [info] fatal: detected dubious ownership in repository at '/home/s6chinwe/espresso/S6-PROJECTS'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/s6chinwe/espresso/S6-PROJECTS
+2024-01-17 18:40:24.105 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:40:24.105 [info] fatal: detected dubious ownership in repository at '/home/s6chinwe/espresso/S6-PROJECTS'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/s6chinwe/espresso/S6-PROJECTS
+2024-01-17 18:40:24.114 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 18:40:24.114 [info] fatal: detected dubious ownership in repository at '/home/s6chinwe/espresso/S6-PROJECTS'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/s6chinwe/espresso/S6-PROJECTS
+2024-01-17 18:47:24.969 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 18:47:24.969 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:47:25.108 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 18:47:25.108 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:47:25.116 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:47:25.116 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:50:25.045 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:50:25.045 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:50:25.052 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 18:50:25.052 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:50:25.059 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:50:25.059 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:51:06.472 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 18:51:06.473 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:51:06.482 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:51:06.482 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:51:06.489 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 18:51:06.489 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:52:27.993 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 18:52:27.993 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:52:28.001 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 18:52:28.001 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:52:28.010 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:52:28.010 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:52:29.991 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 18:52:29.991 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:52:30.117 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:52:30.117 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:52:30.124 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:52:30.124 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:53:24.208 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:53:24.208 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:53:24.215 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-17 18:53:24.216 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-17 18:53:24.223 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-17 18:53:24.223 [info] fatal: not a git repository (or any of the parent directories): .git

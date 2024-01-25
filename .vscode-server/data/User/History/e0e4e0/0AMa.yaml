@@ -1,0 +1,76 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.deployment.review01 }}
+  labels:
+    {{- include "espresso-shop-review.labels" . | nindent 4 }}
+spec:
+  
+  replicas: {{ .Values.replicaCount }}
+ 
+  selector:
+    matchLabels:
+      {{- include "espresso-shop-review.selectorLabels" . | nindent 6 }}
+     
+  template:
+    metadata:
+      {{- with .Values.podAnnotations }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      labels:
+        {{- include "espresso-shop-review.selectorLabels" . | nindent 8 }}
+       
+    spec:
+      {{- with .Values.imagePullSecrets }}
+      imagePullSecrets:
+        {{- toYaml . | nindent 8 }} s6chinwe
+      {{- end }}
+      serviceAccountName: {{ .Values.serviceaccount.review01 }}
+      securityContext:
+        {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      containers:                                              
+        - name: {{ .Values.containername.name }}             
+          securityContext:                                                                                                                                                                                                                                                                            
+            {{- toYaml .Values.securityContext | nindent 12 }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+
+          env:
+            - name: {{ .Values.env.name }}
+              value: {{ .Values.env.value }}
+          environment:
+              name: ProductCatalogUrl
+              value: "http://espresso-shop-product-catalog-svc:8091"
+              review: ReviewsUrl
+              review01: "http://espresso-shop-reviews-svc:8092"
+          ports:
+            - name: http
+              containerPort: {{ .Values.service.containerPort }}
+              protocol: TCP
+
+          {{- if .Values.probe.enabled }}    
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /                                           
+              port: http
+          {{- end }}
+                                                                                                                                                                                                                                                                                                                                                         
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+      {{- with .Values.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}

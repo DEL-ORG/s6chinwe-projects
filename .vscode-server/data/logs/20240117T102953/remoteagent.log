@@ -1,0 +1,207 @@
+2024-01-17 10:29:53.081 [info] 
+
+
+
+
+2024-01-17 10:29:53.099 [info] Extension host agent started.
+2024-01-17 10:29:53.514 [info] [127.0.0.1][da6db0eb][ManagementConnection] New connection established.
+2024-01-17 10:29:53.601 [info] [127.0.0.1][6e18b300][ExtensionHostConnection] New connection established.
+2024-01-17 10:30:03.603 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:30:03.605 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:30:03.606 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:30:03.607 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:30:03.607 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:30:03.607 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:30:03.608 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:30:03.608 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:30:03.608 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:30:03.617 [info] [127.0.0.1][6e18b300][ExtensionHostConnection] <1577693> Launched Extension Host Process.
+2024-01-17 10:30:05.732 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-01-17 10:30:05.732 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-01-17 10:34:53.100 [info] New EH opened, aborting shutdown
+2024-01-17 10:35:58.206 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:35:58.814 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:50:55.395 [info] [127.0.0.1][da6db0eb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-17 10:50:55.423 [info] [127.0.0.1][6e18b300][ExtensionHostConnection] <1577693> Extension Host Process exited with code: 0, signal: null.
+2024-01-17 10:50:55.423 [info] Last EH closed, waiting before shutting down
+2024-01-17 10:51:33.566 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-01-17 10:51:33.566 [info] Cancelling previous shutdown timeout
+2024-01-17 10:51:33.959 [info] [127.0.0.1][76c2d55f][ManagementConnection] New connection established.
+2024-01-17 10:51:34.043 [info] [127.0.0.1][815e16c4][ExtensionHostConnection] New connection established.
+2024-01-17 10:51:34.044 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:51:34.050 [info] [127.0.0.1][815e16c4][ExtensionHostConnection] <1580024> Launched Extension Host Process.
+2024-01-17 10:51:34.234 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:51:34.235 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:51:35.972 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:51:37.255 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:51:37.258 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:51:37.259 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:51:37.260 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:51:54.080 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:52:19.249 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:52:19.732 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 10:56:33.567 [info] New EH opened, aborting shutdown
+2024-01-17 13:59:13.447 [info] [127.0.0.1][76c2d55f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-17 13:59:13.485 [info] [127.0.0.1][815e16c4][ExtensionHostConnection] <1580024> Extension Host Process exited with code: 0, signal: null.
+2024-01-17 13:59:13.486 [info] Last EH closed, waiting before shutting down
+2024-01-17 14:02:29.869 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-01-17 14:02:29.869 [info] Cancelling previous shutdown timeout
+2024-01-17 14:02:30.262 [info] [127.0.0.1][ddf4ad8a][ManagementConnection] New connection established.
+2024-01-17 14:02:30.397 [info] [127.0.0.1][62aa989d][ExtensionHostConnection] New connection established.
+2024-01-17 14:02:30.397 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:02:30.404 [info] [127.0.0.1][62aa989d][ExtensionHostConnection] <1619088> Launched Extension Host Process.
+2024-01-17 14:02:30.624 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:02:30.624 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:02:32.192 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:02:33.146 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:02:33.150 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:02:33.152 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:02:33.153 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:03:46.070 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:03:46.991 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:07:29.870 [info] New EH opened, aborting shutdown
+2024-01-17 14:07:36.857 [info] [127.0.0.1][ddf4ad8a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-17 14:07:36.915 [info] [127.0.0.1][62aa989d][ExtensionHostConnection] <1619088> Extension Host Process exited with code: 0, signal: null.
+2024-01-17 14:07:36.916 [info] Last EH closed, waiting before shutting down
+2024-01-17 14:08:15.199 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-01-17 14:08:15.199 [info] Cancelling previous shutdown timeout
+2024-01-17 14:08:15.587 [info] [127.0.0.1][ffdd19eb][ManagementConnection] New connection established.
+2024-01-17 14:08:15.852 [info] [127.0.0.1][4107ae2b][ExtensionHostConnection] New connection established.
+2024-01-17 14:08:15.873 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:08:15.881 [info] [127.0.0.1][4107ae2b][ExtensionHostConnection] <1621702> Launched Extension Host Process.
+2024-01-17 14:08:15.888 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:08:15.888 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:08:17.486 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:08:18.753 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:08:18.755 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:08:18.757 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:08:18.758 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:08:19.672 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 14:09:53.365 [info] [127.0.0.1][4107ae2b][ExtensionHostConnection] The client has reconnected.
+2024-01-17 14:13:15.199 [info] New EH opened, aborting shutdown
+2024-01-17 14:40:49.673 [info] [127.0.0.1][4107ae2b][ExtensionHostConnection] The client has reconnected.
+2024-01-17 14:48:54.438 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-17 15:14:56.996 [info] [127.0.0.1][ffdd19eb][ManagementConnection] The client has reconnected.
+2024-01-17 15:14:57.120 [info] [127.0.0.1][4107ae2b][ExtensionHostConnection] The client has reconnected.
+2024-01-17 15:23:00.953 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-17 15:23:00.954 [info] [127.0.0.1][ffdd19eb][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-17 15:33:51.014 [info] [127.0.0.1][ffdd19eb][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-17 15:33:51.014 [info] [127.0.0.1][ffdd19eb][ManagementConnection] The client has reconnected.
+2024-01-17 15:33:52.991 [info] [127.0.0.1][4107ae2b][ExtensionHostConnection] The client has reconnected.
+2024-01-17 15:41:56.111 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-17 15:41:56.111 [info] [127.0.0.1][ffdd19eb][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-17 15:53:13.550 [info] [127.0.0.1][ffdd19eb][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-17 15:53:13.551 [info] [127.0.0.1][ffdd19eb][ManagementConnection] The client has reconnected.
+2024-01-17 15:53:14.251 [info] [127.0.0.1][4107ae2b][ExtensionHostConnection] The client has reconnected.
+2024-01-17 16:09:34.482 [info] [127.0.0.1][ffdd19eb][ManagementConnection] The client has reconnected.
+2024-01-17 16:09:35.793 [info] [127.0.0.1][4107ae2b][ExtensionHostConnection] The client has reconnected.
+2024-01-17 16:17:53.799 [info] [127.0.0.1][ffdd19eb][ManagementConnection] The client has reconnected.
+2024-01-17 16:17:54.491 [info] [127.0.0.1][4107ae2b][ExtensionHostConnection] The client has reconnected.
+2024-01-17 17:25:06.888 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-17 17:25:06.889 [info] [127.0.0.1][ffdd19eb][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-17 18:16:45.775 [info] [127.0.0.1][ffdd19eb][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-17 18:16:45.775 [info] [127.0.0.1][ffdd19eb][ManagementConnection] The client has reconnected.
+2024-01-17 18:16:45.838 [info] [127.0.0.1][4107ae2b][ExtensionHostConnection] The client has reconnected.
+2024-01-17 18:23:03.934 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:23:04.848 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:25:08.061 [info] [127.0.0.1][ffdd19eb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-17 18:25:08.089 [info] [127.0.0.1][4107ae2b][ExtensionHostConnection] <1621702> Extension Host Process exited with code: 0, signal: null.
+2024-01-17 18:25:08.089 [info] Last EH closed, waiting before shutting down
+2024-01-17 18:26:26.012 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-01-17 18:26:26.013 [info] Cancelling previous shutdown timeout
+2024-01-17 18:26:26.336 [info] [127.0.0.1][c8095982][ManagementConnection] New connection established.
+2024-01-17 18:26:26.484 [info] [127.0.0.1][6db1abb8][ExtensionHostConnection] New connection established.
+2024-01-17 18:26:26.486 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:26:26.494 [info] [127.0.0.1][6db1abb8][ExtensionHostConnection] <1665456> Launched Extension Host Process.
+2024-01-17 18:26:26.623 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:26:26.623 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:26:28.407 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:26:29.830 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:26:29.832 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:26:29.833 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:26:29.834 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:26:32.114 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-01-17 18:26:32.115 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s6chinwe/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-01-17 18:26:40.610 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:26:41.121 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:29:56.946 [info] [127.0.0.1][c8095982][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-17 18:29:56.974 [info] [127.0.0.1][6db1abb8][ExtensionHostConnection] <1665456> Extension Host Process exited with code: 0, signal: null.
+2024-01-17 18:29:56.975 [info] Cancelling previous shutdown timeout
+2024-01-17 18:29:56.975 [info] Last EH closed, waiting before shutting down
+2024-01-17 18:30:33.952 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-01-17 18:30:33.952 [info] Cancelling previous shutdown timeout
+2024-01-17 18:30:34.350 [info] [127.0.0.1][c193cc47][ManagementConnection] New connection established.
+2024-01-17 18:30:34.449 [info] [127.0.0.1][dc079209][ExtensionHostConnection] New connection established.
+2024-01-17 18:30:34.450 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:30:34.457 [info] [127.0.0.1][dc079209][ExtensionHostConnection] <1666695> Launched Extension Host Process.
+2024-01-17 18:30:34.732 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:30:34.733 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:30:34.733 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:30:34.733 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:30:36.183 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:30:36.853 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:30:36.857 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:30:36.858 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:30:36.859 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:30:38.189 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:30:38.801 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-17 18:35:33.953 [info] New EH opened, aborting shutdown
+2024-01-18 00:00:46.196 [info] [127.0.0.1][dc079209][ExtensionHostConnection] <1666695> Extension Host Process exited with code: 0, signal: null.
+2024-01-18 00:00:46.196 [info] Last EH closed, waiting before shutting down
+2024-01-18 00:05:46.198 [info] Last EH closed, shutting down

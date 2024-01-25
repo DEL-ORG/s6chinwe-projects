@@ -1,0 +1,115 @@
+NAME: s6chinwe
+LAST DEPLOYED: Tue Jan 16 00:04:11 2024
+NAMESPACE: s6chinwe
+STATUS: pending-install
+REVISION: 1
+HOOKS:
+---
+# Source: EspressoShop.Web/templates/tests/test-connection.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "s6chinwe-EspressoShop.Web-test-connection"
+  labels:
+    helm.sh/chart: EspressoShop.Web-0.1.0
+    app.kubernetes.io/name: EspressoShop.Web
+    app.kubernetes.io/instance: s6chinwe
+    app.kubernetes.io/version: "1.16.0"
+    app.kubernetes.io/managed-by: Helm
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['s6chinwe-EspressoShop.Web:80']
+  restartPolicy: Never
+MANIFEST:
+---
+# Source: EspressoShop.Web/templates/serviceaccount.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: s6chinwe-EspressoShop.Web
+  labels:
+    helm.sh/chart: EspressoShop.Web-0.1.0
+    app.kubernetes.io/name: EspressoShop.Web
+    app.kubernetes.io/instance: s6chinwe
+    app.kubernetes.io/version: "1.16.0"
+    app.kubernetes.io/managed-by: Helm
+---
+# Source: EspressoShop.Web/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: s6chinwe-EspressoShop.Web
+  labels:
+    helm.sh/chart: EspressoShop.Web-0.1.0
+    app.kubernetes.io/name: EspressoShop.Web
+    app.kubernetes.io/instance: s6chinwe
+    app.kubernetes.io/version: "1.16.0"
+    app.kubernetes.io/managed-by: Helm
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app.kubernetes.io/name: EspressoShop.Web
+    app.kubernetes.io/instance: s6chinwe
+---
+# Source: EspressoShop.Web/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: s6chinwe-EspressoShop.Web
+  labels:
+    helm.sh/chart: EspressoShop.Web-0.1.0
+    app.kubernetes.io/name: EspressoShop.Web
+    app.kubernetes.io/instance: s6chinwe
+    app.kubernetes.io/version: "1.16.0"
+    app.kubernetes.io/managed-by: Helm
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: EspressoShop.Web
+      app.kubernetes.io/instance: s6chinwe
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: EspressoShop.Web
+        app.kubernetes.io/instance: s6chinwe
+    spec:
+      serviceAccountName: s6chinwe-EspressoShop.Web
+      securityContext:
+        {}
+      containers:
+        - name: EspressoShop.Web
+          securityContext:
+            {}
+          image: "nginx:1.16.0"
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+            {}
+
+NOTES:
+1. Get the application URL by running these commands:
+  export NODE_PORT=$(kubectl get --namespace s6chinwe -o jsonpath="{.spec.ports[0].nodePort}" services s6chinwe-EspressoShop.Web)
+  export NODE_IP=$(kubectl get nodes --namespace s6chinwe -o jsonpath="{.items[0].status.addresses[0].address}")
+  echo http://$NODE_IP:$NODE_PORT

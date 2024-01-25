@@ -1,0 +1,10 @@
+2024-01-19 00:49:14.056 [info] 
+
+
+
+
+2024-01-19 00:49:14.076 [info] Extension host agent started.
+2024-01-19 00:49:15.326 [error] [127.0.0.1][fd9fd128][ManagementConnection] Unknown reconnection token (never seen).
+2024-01-19 00:49:16.258 [error] [127.0.0.1][e2541fc0][ExtensionHostConnection] Unknown reconnection token (never seen).
+2024-01-19 00:49:26.128 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-01-19 00:54:14.077 [info] Last EH closed, shutting down

@@ -1,0 +1,116 @@
+NAME: EspressoShop.Web
+LAST DEPLOYED: Sun Jan 14 12:46:21 2024
+NAMESPACE: default
+STATUS: pending-install
+REVISION: 1
+HOOKS:
+---
+# Source: EspressoShop.Web/templates/tests/test-connection.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "EspressoShop.Web-test-connection"
+  labels:
+    helm.sh/chart: EspressoShop.Web-0.1.0
+    app.kubernetes.io/name: EspressoShop.Web
+    app.kubernetes.io/instance: EspressoShop.Web
+    app.kubernetes.io/version: "1.16.0"
+    app.kubernetes.io/managed-by: Helm
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['EspressoShop.Web:80']
+  restartPolicy: Never
+MANIFEST:
+---
+# Source: EspressoShop.Web/templates/serviceaccount.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: EspressoShop.Web
+  labels:
+    helm.sh/chart: EspressoShop.Web-0.1.0
+    app.kubernetes.io/name: EspressoShop.Web
+    app.kubernetes.io/instance: EspressoShop.Web
+    app.kubernetes.io/version: "1.16.0"
+    app.kubernetes.io/managed-by: Helm
+---
+# Source: EspressoShop.Web/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: EspressoShop.Web
+  labels:
+    helm.sh/chart: EspressoShop.Web-0.1.0
+    app.kubernetes.io/name: EspressoShop.Web
+    app.kubernetes.io/instance: EspressoShop.Web
+    app.kubernetes.io/version: "1.16.0"
+    app.kubernetes.io/managed-by: Helm
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app.kubernetes.io/name: EspressoShop.Web
+    app.kubernetes.io/instance: EspressoShop.Web
+---
+# Source: EspressoShop.Web/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: EspressoShop.Web
+  labels:
+    helm.sh/chart: EspressoShop.Web-0.1.0
+    app.kubernetes.io/name: EspressoShop.Web
+    app.kubernetes.io/instance: EspressoShop.Web
+    app.kubernetes.io/version: "1.16.0"
+    app.kubernetes.io/managed-by: Helm
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: EspressoShop.Web
+      app.kubernetes.io/instance: EspressoShop.Web
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: EspressoShop.Web
+        app.kubernetes.io/instance: EspressoShop.Web
+    spec:
+      serviceAccountName: EspressoShop.Web
+      securityContext:
+        {}
+      containers:
+        - name: EspressoShop.Web
+          securityContext:
+            {}
+          image: "nginx:1.16.0"
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+            {}
+
+NOTES:
+1. Get the application URL by running these commands:
+  export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=EspressoShop.Web,app.kubernetes.io/instance=EspressoShop.Web" -o jsonpath="{.items[0].metadata.name}")
+  export CONTAINER_PORT=$(kubectl get pod --namespace default $POD_NAME -o jsonpath="{.spec.containers[0].ports[0].containerPort}")
+  echo "Visit http://127.0.0.1:8080 to use your application"
+  kubectl --namespace default port-forward $POD_NAME 8080:$CONTAINER_PORT

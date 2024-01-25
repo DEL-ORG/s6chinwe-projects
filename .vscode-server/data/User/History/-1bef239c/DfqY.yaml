@@ -1,0 +1,108 @@
+---
+# Source: espresso-web/templates/serviceaccount.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: espresso-web-sa
+  labels:
+    helm.sh/chart: espresso-web-0.1.0
+    app.kubernetes.io/name: espresso-web
+    app.kubernetes.io/instance: RELEASE-NAME
+    app.kubernetes.io/version: "1.16.0"
+    app.kubernetes.io/managed-by: Helm
+---
+# Source: espresso-web/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: RELEASE-NAME-espresso-web
+  labels:
+    helm.sh/chart: espresso-web-0.1.0
+    app.kubernetes.io/name: espresso-web
+    app.kubernetes.io/instance: RELEASE-NAME
+    app.kubernetes.io/version: "1.16.0"
+    app.kubernetes.io/managed-by: Helm
+spec:
+  type: NodePort
+  ports:
+    - port: 8090
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app.kubernetes.io/name: espresso-web
+    app.kubernetes.io/instance: RELEASE-NAME
+---
+# Source: espresso-web/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: espresso-web
+  labels:
+    helm.sh/chart: espresso-web-0.1.0
+    app.kubernetes.io/name: espresso-web
+    app.kubernetes.io/instance: RELEASE-NAME
+    app.kubernetes.io/version: "1.16.0"
+    app.kubernetes.io/managed-by: Helm
+spec:
+  selector:
+    matchLabels:
+      version: v1
+  template:
+    metadata:
+      labels:
+        version: v1
+    spec:
+      serviceAccountName: espresso-web-sa
+      securityContext:
+        {}
+      containers:
+        - name: espresso-web
+          securityContext:
+            {}
+          image: "devopseasylearning/espresso-shop-web:v1.0.0"
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+             
+          env:
+            - name: ProductCatalogUrl
+              value: http://espresso-shop-product-catalog-svc:8091
+              name2: ReviewsUrl
+              value2: http://espresso-shop-reviews-svc:8092  
+
+          resources:
+            limits:
+              cpu: 100m
+              memory: 128Mi
+            requests:
+              cpu: 100m
+              memory: 128Mi
+---
+# Source: espresso-web/templates/hpa.yaml
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: espresso-web-hpa
+  labels:
+    helm.sh/chart: espresso-web-0.1.0
+    app.kubernetes.io/name: espresso-web
+    app.kubernetes.io/instance: RELEASE-NAME
+    app.kubernetes.io/version: "1.16.0"
+    app.kubernetes.io/managed-by: Helm
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: espresso-web
+  minReplicas: 1
+  maxReplicas: 100
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target: 
+          type: Utilization
+          averageUtilization: 80
