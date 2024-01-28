@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: new-secret
+type: Opaque
+data:
+  POSTGRES_USER: UE9TVEdSRVNfVVNFUg==
+  POSTGRES_PASSWORD: UE9TVEdSRVNfUEFTU1dPUkQ=
+  POSTGRES_DB: UE9TVEdSRVNfREI=

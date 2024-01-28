@@ -1,0 +1,7 @@
+{
+    "window.zoomLevel": 4,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "editor.fontSize": 14,
+    "remote.SSH.connectTimeout": 45
+}

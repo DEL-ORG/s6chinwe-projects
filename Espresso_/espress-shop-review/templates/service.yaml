@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.service.name }}
+  labels:
+    {{- include "espress-shop-review.labels" . | nindent 4 }}
+    {{- include "espress-shop-review.labels-2" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "espress-shop-review.selectorLabels" . | nindent 4 }}
+    {{- include "espress-shop-review.selectorLabels-2" . | nindent 4 }}

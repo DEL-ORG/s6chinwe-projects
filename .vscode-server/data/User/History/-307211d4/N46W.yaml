@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: new-secret
+type: Opaque
+data:
+  POSTGRES_USER: s6chinwe
+  POSTGRES_PASSWORD: ZXNwcmVzc28tYXBw 
+  POSTGRES_DB: espresso-app
