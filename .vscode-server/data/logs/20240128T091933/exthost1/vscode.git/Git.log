@@ -336,3 +336,522 @@
 2024-01-28 09:33:55.658 [info] > git config --get commit.template [9ms]
 2024-01-28 09:33:55.659 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
 2024-01-28 09:33:55.797 [info] > git status -z -uall [132ms]
+2024-01-28 09:34:00.824 [info] No remotes found in the git config file.
+2024-01-28 09:34:00.825 [info] > git config --get commit.template [6ms]
+2024-01-28 09:34:00.825 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:34:00.957 [info] > git status -z -uall [126ms]
+2024-01-28 09:34:05.988 [info] No remotes found in the git config file.
+2024-01-28 09:34:05.989 [info] > git config --get commit.template [7ms]
+2024-01-28 09:34:05.990 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:34:06.128 [info] > git status -z -uall [128ms]
+2024-01-28 09:34:11.155 [info] No remotes found in the git config file.
+2024-01-28 09:34:11.156 [info] > git config --get commit.template [7ms]
+2024-01-28 09:34:11.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:34:11.287 [info] > git status -z -uall [125ms]
+2024-01-28 09:34:16.314 [info] No remotes found in the git config file.
+2024-01-28 09:34:16.315 [info] > git config --get commit.template [8ms]
+2024-01-28 09:34:16.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:34:16.456 [info] > git status -z -uall [134ms]
+2024-01-28 09:34:21.480 [info] No remotes found in the git config file.
+2024-01-28 09:34:21.481 [info] > git config --get commit.template [8ms]
+2024-01-28 09:34:21.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:34:21.591 [info] > git status -z -uall [103ms]
+2024-01-28 09:34:26.619 [info] No remotes found in the git config file.
+2024-01-28 09:34:26.621 [info] > git config --get commit.template [8ms]
+2024-01-28 09:34:26.622 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:34:26.740 [info] > git status -z -uall [111ms]
+2024-01-28 09:34:31.764 [info] No remotes found in the git config file.
+2024-01-28 09:34:31.765 [info] > git config --get commit.template [8ms]
+2024-01-28 09:34:31.765 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:34:31.872 [info] > git status -z -uall [101ms]
+2024-01-28 09:34:36.896 [info] No remotes found in the git config file.
+2024-01-28 09:34:36.897 [info] > git config --get commit.template [8ms]
+2024-01-28 09:34:36.898 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:34:37.008 [info] > git status -z -uall [104ms]
+2024-01-28 09:34:42.034 [info] No remotes found in the git config file.
+2024-01-28 09:34:42.035 [info] > git config --get commit.template [7ms]
+2024-01-28 09:34:42.036 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:34:42.147 [info] > git status -z -uall [105ms]
+2024-01-28 09:34:47.171 [info] No remotes found in the git config file.
+2024-01-28 09:34:47.173 [info] > git config --get commit.template [8ms]
+2024-01-28 09:34:47.174 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:34:47.289 [info] > git status -z -uall [109ms]
+2024-01-28 09:34:51.173 [info] > git fetch [144ms]
+2024-01-28 09:34:51.190 [info] > git config --get commit.template [9ms]
+2024-01-28 09:34:51.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-28 09:34:51.203 [info] > git status -z -uall [5ms]
+2024-01-28 09:34:52.319 [info] No remotes found in the git config file.
+2024-01-28 09:34:52.320 [info] > git config --get commit.template [8ms]
+2024-01-28 09:34:52.321 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:34:52.418 [info] > git config --get commit.template [9ms]
+2024-01-28 09:34:52.419 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-01-28 09:34:52.434 [info] > git status -z -uall [107ms]
+2024-01-28 09:34:52.435 [info] > git status -z -uall [5ms]
+2024-01-28 09:34:52.659 [info] > git fetch [7ms]
+2024-01-28 09:34:52.676 [info] No remotes found in the git config file.
+2024-01-28 09:34:52.677 [info] > git config --get commit.template [9ms]
+2024-01-28 09:34:52.678 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:34:52.795 [info] > git status -z -uall [111ms]
+2024-01-28 09:34:57.466 [info] No remotes found in the git config file.
+2024-01-28 09:34:57.467 [info] > git config --get commit.template [7ms]
+2024-01-28 09:34:57.467 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:34:57.571 [info] > git status -z -uall [98ms]
+2024-01-28 09:35:02.592 [info] No remotes found in the git config file.
+2024-01-28 09:35:02.599 [info] > git config --get commit.template [8ms]
+2024-01-28 09:35:02.600 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:35:02.710 [info] > git status -z -uall [105ms]
+2024-01-28 09:35:07.732 [info] No remotes found in the git config file.
+2024-01-28 09:35:07.733 [info] > git config --get commit.template [7ms]
+2024-01-28 09:35:07.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:35:07.843 [info] > git status -z -uall [103ms]
+2024-01-28 09:35:12.873 [info] No remotes found in the git config file.
+2024-01-28 09:35:12.874 [info] > git config --get commit.template [12ms]
+2024-01-28 09:35:12.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:35:12.998 [info] > git status -z -uall [116ms]
+2024-01-28 09:35:18.026 [info] No remotes found in the git config file.
+2024-01-28 09:35:18.026 [info] > git config --get commit.template [7ms]
+2024-01-28 09:35:18.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:35:18.085 [info] > git status -z -uall [52ms]
+2024-01-28 09:35:23.109 [info] No remotes found in the git config file.
+2024-01-28 09:35:23.110 [info] > git config --get commit.template [8ms]
+2024-01-28 09:35:23.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:35:23.169 [info] > git status -z -uall [52ms]
+2024-01-28 09:35:28.193 [info] No remotes found in the git config file.
+2024-01-28 09:35:28.193 [info] > git config --get commit.template [8ms]
+2024-01-28 09:35:28.194 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:35:28.254 [info] > git status -z -uall [52ms]
+2024-01-28 09:35:33.274 [info] No remotes found in the git config file.
+2024-01-28 09:35:33.282 [info] > git config --get commit.template [8ms]
+2024-01-28 09:35:33.282 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:35:33.338 [info] > git status -z -uall [50ms]
+2024-01-28 09:35:38.358 [info] > git config --get commit.template [6ms]
+2024-01-28 09:35:38.364 [info] No remotes found in the git config file.
+2024-01-28 09:35:38.365 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:35:38.428 [info] > git status -z -uall [56ms]
+2024-01-28 09:35:43.445 [info] No remotes found in the git config file.
+2024-01-28 09:35:43.446 [info] > git config --get commit.template [8ms]
+2024-01-28 09:35:43.447 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:35:43.511 [info] > git status -z -uall [57ms]
+2024-01-28 09:35:48.532 [info] No remotes found in the git config file.
+2024-01-28 09:35:48.532 [info] > git config --get commit.template [8ms]
+2024-01-28 09:35:48.533 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:35:48.599 [info] > git status -z -uall [60ms]
+2024-01-28 09:35:53.616 [info] No remotes found in the git config file.
+2024-01-28 09:35:53.617 [info] > git config --get commit.template [8ms]
+2024-01-28 09:35:53.618 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:35:53.671 [info] > git status -z -uall [48ms]
+2024-01-28 09:35:58.695 [info] No remotes found in the git config file.
+2024-01-28 09:35:58.695 [info] > git config --get commit.template [12ms]
+2024-01-28 09:35:58.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:35:58.756 [info] > git status -z -uall [52ms]
+2024-01-28 09:36:03.775 [info] No remotes found in the git config file.
+2024-01-28 09:36:03.776 [info] > git config --get commit.template [9ms]
+2024-01-28 09:36:03.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:36:03.838 [info] > git status -z -uall [56ms]
+2024-01-28 09:36:08.859 [info] No remotes found in the git config file.
+2024-01-28 09:36:08.859 [info] > git config --get commit.template [7ms]
+2024-01-28 09:36:08.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:36:08.916 [info] > git status -z -uall [50ms]
+2024-01-28 09:36:13.937 [info] No remotes found in the git config file.
+2024-01-28 09:36:13.937 [info] > git config --get commit.template [9ms]
+2024-01-28 09:36:13.938 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:36:14.000 [info] > git status -z -uall [55ms]
+2024-01-28 09:36:19.022 [info] No remotes found in the git config file.
+2024-01-28 09:36:19.023 [info] > git config --get commit.template [11ms]
+2024-01-28 09:36:19.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:36:19.083 [info] > git status -z -uall [53ms]
+2024-01-28 09:36:24.102 [info] No remotes found in the git config file.
+2024-01-28 09:36:24.103 [info] > git config --get commit.template [8ms]
+2024-01-28 09:36:24.103 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:36:24.170 [info] > git status -z -uall [57ms]
+2024-01-28 09:36:29.189 [info] No remotes found in the git config file.
+2024-01-28 09:36:29.190 [info] > git config --get commit.template [8ms]
+2024-01-28 09:36:29.190 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:36:29.253 [info] > git status -z -uall [57ms]
+2024-01-28 09:36:34.273 [info] No remotes found in the git config file.
+2024-01-28 09:36:34.274 [info] > git config --get commit.template [10ms]
+2024-01-28 09:36:34.275 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [4ms]
+2024-01-28 09:36:34.338 [info] > git status -z -uall [54ms]
+2024-01-28 09:36:39.356 [info] No remotes found in the git config file.
+2024-01-28 09:36:39.357 [info] > git config --get commit.template [7ms]
+2024-01-28 09:36:39.357 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:36:39.421 [info] > git status -z -uall [57ms]
+2024-01-28 09:36:44.443 [info] No remotes found in the git config file.
+2024-01-28 09:36:44.444 [info] > git config --get commit.template [9ms]
+2024-01-28 09:36:44.444 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:36:44.507 [info] > git status -z -uall [56ms]
+2024-01-28 09:36:49.530 [info] No remotes found in the git config file.
+2024-01-28 09:36:49.530 [info] > git config --get commit.template [8ms]
+2024-01-28 09:36:49.531 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:36:49.592 [info] > git status -z -uall [54ms]
+2024-01-28 09:36:54.612 [info] No remotes found in the git config file.
+2024-01-28 09:36:54.613 [info] > git config --get commit.template [8ms]
+2024-01-28 09:36:54.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:36:54.679 [info] > git status -z -uall [58ms]
+2024-01-28 09:36:59.701 [info] No remotes found in the git config file.
+2024-01-28 09:36:59.702 [info] > git config --get commit.template [9ms]
+2024-01-28 09:36:59.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:36:59.770 [info] > git status -z -uall [61ms]
+2024-01-28 09:37:04.791 [info] No remotes found in the git config file.
+2024-01-28 09:37:04.791 [info] > git config --get commit.template [8ms]
+2024-01-28 09:37:04.792 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:37:04.855 [info] > git status -z -uall [55ms]
+2024-01-28 09:37:34.062 [info] > git config --get commit.template [1ms]
+2024-01-28 09:37:34.070 [info] No remotes found in the git config file.
+2024-01-28 09:37:34.072 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:37:34.133 [info] > git status -z -uall [55ms]
+2024-01-28 09:37:39.153 [info] No remotes found in the git config file.
+2024-01-28 09:37:39.153 [info] > git config --get commit.template [7ms]
+2024-01-28 09:37:39.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:37:39.214 [info] > git status -z -uall [54ms]
+2024-01-28 09:37:44.237 [info] No remotes found in the git config file.
+2024-01-28 09:37:44.238 [info] > git config --get commit.template [8ms]
+2024-01-28 09:37:44.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:37:44.300 [info] > git status -z -uall [54ms]
+2024-01-28 09:37:49.321 [info] No remotes found in the git config file.
+2024-01-28 09:37:49.322 [info] > git config --get commit.template [9ms]
+2024-01-28 09:37:49.322 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:37:49.394 [info] > git status -z -uall [62ms]
+2024-01-28 09:37:51.373 [info] > git fetch [153ms]
+2024-01-28 09:37:51.389 [info] > git config --get commit.template [8ms]
+2024-01-28 09:37:51.390 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-28 09:37:51.404 [info] > git status -z -uall [5ms]
+2024-01-28 09:37:52.629 [info] > git config --get commit.template [13ms]
+2024-01-28 09:37:52.630 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-01-28 09:37:52.648 [info] > git status -z -uall [8ms]
+2024-01-28 09:37:52.825 [info] > git fetch [7ms]
+2024-01-28 09:37:52.840 [info] No remotes found in the git config file.
+2024-01-28 09:37:52.841 [info] > git config --get commit.template [8ms]
+2024-01-28 09:37:52.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:37:52.905 [info] > git status -z -uall [57ms]
+2024-01-28 09:37:54.414 [info] No remotes found in the git config file.
+2024-01-28 09:37:54.415 [info] > git config --get commit.template [10ms]
+2024-01-28 09:37:54.416 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:37:54.477 [info] > git status -z -uall [54ms]
+2024-01-28 09:37:59.496 [info] No remotes found in the git config file.
+2024-01-28 09:37:59.497 [info] > git config --get commit.template [8ms]
+2024-01-28 09:37:59.497 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:37:59.561 [info] > git status -z -uall [58ms]
+2024-01-28 09:38:04.579 [info] No remotes found in the git config file.
+2024-01-28 09:38:04.580 [info] > git config --get commit.template [8ms]
+2024-01-28 09:38:04.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:38:04.647 [info] > git status -z -uall [60ms]
+2024-01-28 09:38:09.665 [info] No remotes found in the git config file.
+2024-01-28 09:38:09.666 [info] > git config --get commit.template [8ms]
+2024-01-28 09:38:09.667 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:38:09.727 [info] > git status -z -uall [54ms]
+2024-01-28 09:38:14.746 [info] No remotes found in the git config file.
+2024-01-28 09:38:14.746 [info] > git config --get commit.template [8ms]
+2024-01-28 09:38:14.747 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:38:14.807 [info] > git status -z -uall [54ms]
+2024-01-28 09:38:19.827 [info] No remotes found in the git config file.
+2024-01-28 09:38:19.828 [info] > git config --get commit.template [8ms]
+2024-01-28 09:38:19.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:38:19.886 [info] > git status -z -uall [52ms]
+2024-01-28 09:41:14.213 [info] > git fetch [15ms]
+2024-01-28 09:41:14.222 [info] > git config --get commit.template [14ms]
+2024-01-28 09:41:14.229 [info] No remotes found in the git config file.
+2024-01-28 09:41:14.231 [info] > git config --get commit.template [9ms]
+2024-01-28 09:41:14.237 [info] No remotes found in the git config file.
+2024-01-28 09:41:14.237 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [8ms]
+2024-01-28 09:41:14.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:41:14.300 [info] > git status -z -uall [54ms]
+2024-01-28 09:41:14.356 [info] > git fetch [166ms]
+2024-01-28 09:41:14.372 [info] > git config --get commit.template [8ms]
+2024-01-28 09:41:14.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-28 09:41:14.385 [info] > git status -z -uall [5ms]
+2024-01-28 09:41:15.593 [info] > git config --get commit.template [2ms]
+2024-01-28 09:41:15.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-28 09:41:15.613 [info] > git status -z -uall [6ms]
+2024-01-28 09:41:19.258 [info] No remotes found in the git config file.
+2024-01-28 09:41:19.259 [info] > git config --get commit.template [10ms]
+2024-01-28 09:41:19.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:41:19.317 [info] > git status -z -uall [51ms]
+2024-01-28 09:41:24.335 [info] No remotes found in the git config file.
+2024-01-28 09:41:24.336 [info] > git config --get commit.template [8ms]
+2024-01-28 09:41:24.337 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:41:24.398 [info] > git status -z -uall [53ms]
+2024-01-28 09:41:29.419 [info] No remotes found in the git config file.
+2024-01-28 09:41:29.420 [info] > git config --get commit.template [10ms]
+2024-01-28 09:41:29.420 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:41:29.491 [info] > git status -z -uall [64ms]
+2024-01-28 09:41:34.514 [info] No remotes found in the git config file.
+2024-01-28 09:41:34.515 [info] > git config --get commit.template [9ms]
+2024-01-28 09:41:34.515 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:41:34.574 [info] > git status -z -uall [52ms]
+2024-01-28 09:41:39.594 [info] No remotes found in the git config file.
+2024-01-28 09:41:39.595 [info] > git config --get commit.template [7ms]
+2024-01-28 09:41:39.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:41:39.659 [info] > git status -z -uall [57ms]
+2024-01-28 09:41:44.680 [info] No remotes found in the git config file.
+2024-01-28 09:41:44.681 [info] > git config --get commit.template [9ms]
+2024-01-28 09:41:44.682 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:41:44.750 [info] > git status -z -uall [62ms]
+2024-01-28 09:41:49.770 [info] No remotes found in the git config file.
+2024-01-28 09:41:49.770 [info] > git config --get commit.template [7ms]
+2024-01-28 09:41:49.771 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:41:49.836 [info] > git status -z -uall [57ms]
+2024-01-28 09:41:54.854 [info] No remotes found in the git config file.
+2024-01-28 09:41:54.862 [info] > git config --get commit.template [8ms]
+2024-01-28 09:41:54.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:41:54.926 [info] > git status -z -uall [57ms]
+2024-01-28 09:41:59.945 [info] No remotes found in the git config file.
+2024-01-28 09:41:59.946 [info] > git config --get commit.template [8ms]
+2024-01-28 09:41:59.947 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:42:00.013 [info] > git status -z -uall [58ms]
+2024-01-28 09:42:05.031 [info] No remotes found in the git config file.
+2024-01-28 09:42:05.032 [info] > git config --get commit.template [8ms]
+2024-01-28 09:42:05.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:42:05.099 [info] > git status -z -uall [59ms]
+2024-01-28 09:42:10.121 [info] No remotes found in the git config file.
+2024-01-28 09:42:10.122 [info] > git config --get commit.template [9ms]
+2024-01-28 09:42:10.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:42:10.193 [info] > git status -z -uall [62ms]
+2024-01-28 09:42:15.210 [info] > git config --get commit.template [2ms]
+2024-01-28 09:42:15.217 [info] No remotes found in the git config file.
+2024-01-28 09:42:15.218 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:42:15.286 [info] > git status -z -uall [59ms]
+2024-01-28 09:42:20.305 [info] > git config --get commit.template [1ms]
+2024-01-28 09:42:20.313 [info] No remotes found in the git config file.
+2024-01-28 09:42:20.314 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:42:20.379 [info] > git status -z -uall [58ms]
+2024-01-28 09:42:25.397 [info] No remotes found in the git config file.
+2024-01-28 09:42:25.398 [info] > git config --get commit.template [7ms]
+2024-01-28 09:42:25.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:42:25.460 [info] > git status -z -uall [56ms]
+2024-01-28 09:42:30.481 [info] No remotes found in the git config file.
+2024-01-28 09:42:30.482 [info] > git config --get commit.template [8ms]
+2024-01-28 09:42:30.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:42:30.550 [info] > git status -z -uall [60ms]
+2024-01-28 09:42:35.569 [info] No remotes found in the git config file.
+2024-01-28 09:42:35.570 [info] > git config --get commit.template [10ms]
+2024-01-28 09:42:35.571 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:42:35.637 [info] > git status -z -uall [58ms]
+2024-01-28 09:42:40.652 [info] > git config --get commit.template [3ms]
+2024-01-28 09:42:40.659 [info] No remotes found in the git config file.
+2024-01-28 09:42:40.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:42:40.722 [info] > git status -z -uall [55ms]
+2024-01-28 09:42:45.735 [info] No remotes found in the git config file.
+2024-01-28 09:42:45.742 [info] > git config --get commit.template [8ms]
+2024-01-28 09:42:45.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:42:45.810 [info] > git status -z -uall [61ms]
+2024-01-28 09:42:50.827 [info] No remotes found in the git config file.
+2024-01-28 09:42:50.828 [info] > git config --get commit.template [7ms]
+2024-01-28 09:42:50.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:42:50.888 [info] > git status -z -uall [53ms]
+2024-01-28 09:42:55.906 [info] No remotes found in the git config file.
+2024-01-28 09:42:55.907 [info] > git config --get commit.template [7ms]
+2024-01-28 09:42:55.908 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:42:55.978 [info] > git status -z -uall [63ms]
+2024-01-28 09:43:00.997 [info] No remotes found in the git config file.
+2024-01-28 09:43:00.998 [info] > git config --get commit.template [7ms]
+2024-01-28 09:43:00.998 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:43:01.066 [info] > git status -z -uall [62ms]
+2024-01-28 09:43:06.087 [info] No remotes found in the git config file.
+2024-01-28 09:43:06.088 [info] > git config --get commit.template [8ms]
+2024-01-28 09:43:06.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:43:06.154 [info] > git status -z -uall [58ms]
+2024-01-28 09:43:11.175 [info] No remotes found in the git config file.
+2024-01-28 09:43:11.176 [info] > git config --get commit.template [9ms]
+2024-01-28 09:43:11.177 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:43:11.240 [info] > git status -z -uall [57ms]
+2024-01-28 09:43:16.257 [info] No remotes found in the git config file.
+2024-01-28 09:43:16.258 [info] > git config --get commit.template [7ms]
+2024-01-28 09:43:16.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:43:16.326 [info] > git status -z -uall [61ms]
+2024-01-28 09:43:21.344 [info] No remotes found in the git config file.
+2024-01-28 09:43:21.345 [info] > git config --get commit.template [8ms]
+2024-01-28 09:43:21.346 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:43:21.411 [info] > git status -z -uall [58ms]
+2024-01-28 09:43:26.431 [info] No remotes found in the git config file.
+2024-01-28 09:43:26.432 [info] > git config --get commit.template [8ms]
+2024-01-28 09:43:26.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:43:26.507 [info] > git status -z -uall [65ms]
+2024-01-28 09:43:31.525 [info] No remotes found in the git config file.
+2024-01-28 09:43:31.526 [info] > git config --get commit.template [7ms]
+2024-01-28 09:43:31.527 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:43:31.603 [info] > git status -z -uall [69ms]
+2024-01-28 09:43:36.623 [info] No remotes found in the git config file.
+2024-01-28 09:43:36.624 [info] > git config --get commit.template [7ms]
+2024-01-28 09:43:36.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:43:36.691 [info] > git status -z -uall [58ms]
+2024-01-28 09:43:41.710 [info] No remotes found in the git config file.
+2024-01-28 09:43:41.711 [info] > git config --get commit.template [9ms]
+2024-01-28 09:43:41.712 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:43:41.779 [info] > git status -z -uall [60ms]
+2024-01-28 09:43:46.797 [info] > git config --get commit.template [2ms]
+2024-01-28 09:43:46.804 [info] No remotes found in the git config file.
+2024-01-28 09:43:46.810 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [6ms]
+2024-01-28 09:43:46.877 [info] > git status -z -uall [59ms]
+2024-01-28 09:43:51.900 [info] No remotes found in the git config file.
+2024-01-28 09:43:51.900 [info] > git config --get commit.template [9ms]
+2024-01-28 09:43:51.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:43:51.972 [info] > git status -z -uall [62ms]
+2024-01-28 09:43:57.000 [info] No remotes found in the git config file.
+2024-01-28 09:43:57.001 [info] > git config --get commit.template [14ms]
+2024-01-28 09:43:57.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:43:57.083 [info] > git status -z -uall [71ms]
+2024-01-28 09:44:02.102 [info] No remotes found in the git config file.
+2024-01-28 09:44:02.103 [info] > git config --get commit.template [8ms]
+2024-01-28 09:44:02.104 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:44:02.166 [info] > git status -z -uall [56ms]
+2024-01-28 09:44:07.187 [info] No remotes found in the git config file.
+2024-01-28 09:44:07.188 [info] > git config --get commit.template [8ms]
+2024-01-28 09:44:07.189 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:44:07.259 [info] > git status -z -uall [62ms]
+2024-01-28 09:44:12.278 [info] No remotes found in the git config file.
+2024-01-28 09:44:12.278 [info] > git config --get commit.template [7ms]
+2024-01-28 09:44:12.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:44:12.339 [info] > git status -z -uall [54ms]
+2024-01-28 09:44:14.316 [info] > git fetch [6ms]
+2024-01-28 09:44:14.331 [info] No remotes found in the git config file.
+2024-01-28 09:44:14.331 [info] > git config --get commit.template [7ms]
+2024-01-28 09:44:14.332 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:44:14.405 [info] > git status -z -uall [64ms]
+2024-01-28 09:44:14.554 [info] > git fetch [149ms]
+2024-01-28 09:44:14.575 [info] > git config --get commit.template [12ms]
+2024-01-28 09:44:14.577 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-01-28 09:44:14.589 [info] > git status -z -uall [6ms]
+2024-01-28 09:44:15.801 [info] > git config --get commit.template [8ms]
+2024-01-28 09:44:15.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-01-28 09:44:15.814 [info] > git status -z -uall [6ms]
+2024-01-28 09:44:17.359 [info] No remotes found in the git config file.
+2024-01-28 09:44:17.360 [info] > git config --get commit.template [9ms]
+2024-01-28 09:44:17.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:44:17.421 [info] > git status -z -uall [54ms]
+2024-01-28 09:44:22.438 [info] No remotes found in the git config file.
+2024-01-28 09:44:22.439 [info] > git config --get commit.template [7ms]
+2024-01-28 09:44:22.439 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:44:22.498 [info] > git status -z -uall [53ms]
+2024-01-28 09:44:27.513 [info] No remotes found in the git config file.
+2024-01-28 09:44:27.522 [info] > git config --get commit.template [9ms]
+2024-01-28 09:44:27.523 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:44:27.588 [info] > git status -z -uall [58ms]
+2024-01-28 09:44:32.606 [info] No remotes found in the git config file.
+2024-01-28 09:44:32.607 [info] > git config --get commit.template [7ms]
+2024-01-28 09:44:32.607 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:44:32.685 [info] > git status -z -uall [65ms]
+2024-01-28 09:44:37.704 [info] No remotes found in the git config file.
+2024-01-28 09:44:37.705 [info] > git config --get commit.template [7ms]
+2024-01-28 09:44:37.705 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:44:37.767 [info] > git status -z -uall [56ms]
+2024-01-28 09:44:42.785 [info] No remotes found in the git config file.
+2024-01-28 09:44:42.785 [info] > git config --get commit.template [7ms]
+2024-01-28 09:44:42.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:44:42.849 [info] > git status -z -uall [57ms]
+2024-01-28 09:44:47.870 [info] No remotes found in the git config file.
+2024-01-28 09:44:47.871 [info] > git config --get commit.template [7ms]
+2024-01-28 09:44:47.871 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:44:47.931 [info] > git status -z -uall [53ms]
+2024-01-28 09:44:52.951 [info] No remotes found in the git config file.
+2024-01-28 09:44:52.951 [info] > git config --get commit.template [7ms]
+2024-01-28 09:44:52.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:44:53.018 [info] > git status -z -uall [59ms]
+2024-01-28 09:44:58.035 [info] No remotes found in the git config file.
+2024-01-28 09:44:58.035 [info] > git config --get commit.template [6ms]
+2024-01-28 09:44:58.036 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:44:58.101 [info] > git status -z -uall [57ms]
+2024-01-28 09:45:19.510 [info] No remotes found in the git config file.
+2024-01-28 09:45:19.511 [info] > git config --get commit.template [8ms]
+2024-01-28 09:45:19.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:45:19.574 [info] > git status -z -uall [56ms]
+2024-01-28 09:45:24.591 [info] No remotes found in the git config file.
+2024-01-28 09:45:24.592 [info] > git config --get commit.template [7ms]
+2024-01-28 09:45:24.592 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:45:24.654 [info] > git status -z -uall [55ms]
+2024-01-28 09:45:29.665 [info] No remotes found in the git config file.
+2024-01-28 09:45:29.672 [info] > git config --get commit.template [7ms]
+2024-01-28 09:45:29.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:45:29.737 [info] > git status -z -uall [57ms]
+2024-01-28 09:45:34.759 [info] No remotes found in the git config file.
+2024-01-28 09:45:34.761 [info] > git config --get commit.template [11ms]
+2024-01-28 09:45:34.762 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:45:34.825 [info] > git status -z -uall [56ms]
+2024-01-28 09:45:39.847 [info] No remotes found in the git config file.
+2024-01-28 09:45:39.848 [info] > git config --get commit.template [8ms]
+2024-01-28 09:45:39.848 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:45:39.907 [info] > git status -z -uall [53ms]
+2024-01-28 09:45:44.931 [info] No remotes found in the git config file.
+2024-01-28 09:45:44.932 [info] > git config --get commit.template [9ms]
+2024-01-28 09:45:44.932 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:45:44.993 [info] > git status -z -uall [54ms]
+2024-01-28 09:45:50.011 [info] No remotes found in the git config file.
+2024-01-28 09:45:50.012 [info] > git config --get commit.template [7ms]
+2024-01-28 09:45:50.013 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:45:50.073 [info] > git status -z -uall [55ms]
+2024-01-28 09:45:55.095 [info] No remotes found in the git config file.
+2024-01-28 09:45:55.096 [info] > git config --get commit.template [10ms]
+2024-01-28 09:45:55.097 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:45:55.162 [info] > git status -z -uall [59ms]
+2024-01-28 09:46:00.183 [info] No remotes found in the git config file.
+2024-01-28 09:46:00.184 [info] > git config --get commit.template [9ms]
+2024-01-28 09:46:00.186 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:46:00.256 [info] > git status -z -uall [61ms]
+2024-01-28 09:46:05.279 [info] No remotes found in the git config file.
+2024-01-28 09:46:05.280 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:46:05.280 [info] > git config --get commit.template [12ms]
+2024-01-28 09:46:05.347 [info] > git status -z -uall [57ms]
+2024-01-28 09:46:25.367 [info] No remotes found in the git config file.
+2024-01-28 09:46:25.368 [info] > git config --get commit.template [9ms]
+2024-01-28 09:46:25.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:46:25.430 [info] > git status -z -uall [55ms]
+2024-01-28 09:46:30.444 [info] > git config --get commit.template [2ms]
+2024-01-28 09:46:30.452 [info] No remotes found in the git config file.
+2024-01-28 09:46:30.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:46:30.519 [info] > git status -z -uall [58ms]
+2024-01-28 09:46:35.539 [info] No remotes found in the git config file.
+2024-01-28 09:46:35.540 [info] > git config --get commit.template [8ms]
+2024-01-28 09:46:35.540 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:46:35.599 [info] > git status -z -uall [53ms]
+2024-01-28 09:46:40.617 [info] No remotes found in the git config file.
+2024-01-28 09:46:40.618 [info] > git config --get commit.template [8ms]
+2024-01-28 09:46:40.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:46:40.681 [info] > git status -z -uall [56ms]
+2024-01-28 09:46:45.701 [info] No remotes found in the git config file.
+2024-01-28 09:46:45.702 [info] > git config --get commit.template [8ms]
+2024-01-28 09:46:45.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:46:45.766 [info] > git status -z -uall [57ms]
+2024-01-28 09:46:50.786 [info] No remotes found in the git config file.
+2024-01-28 09:46:50.787 [info] > git config --get commit.template [7ms]
+2024-01-28 09:46:50.787 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:46:50.851 [info] > git status -z -uall [58ms]
+2024-01-28 09:47:12.314 [info] No remotes found in the git config file.
+2024-01-28 09:47:12.316 [info] > git config --get commit.template [9ms]
+2024-01-28 09:47:12.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:47:12.386 [info] > git status -z -uall [63ms]
+2024-01-28 09:47:14.425 [info] > git fetch [5ms]
+2024-01-28 09:47:14.440 [info] No remotes found in the git config file.
+2024-01-28 09:47:14.441 [info] > git config --get commit.template [7ms]
+2024-01-28 09:47:14.442 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:47:14.510 [info] > git status -z -uall [62ms]
+2024-01-28 09:47:14.774 [info] > git fetch [162ms]
+2024-01-28 09:47:14.793 [info] > git config --get commit.template [9ms]
+2024-01-28 09:47:14.795 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-01-28 09:47:14.810 [info] > git status -z -uall [7ms]
+2024-01-28 09:47:16.023 [info] > git config --get commit.template [9ms]
+2024-01-28 09:47:16.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-01-28 09:47:16.039 [info] > git status -z -uall [5ms]
+2024-01-28 09:47:17.405 [info] No remotes found in the git config file.
+2024-01-28 09:47:17.406 [info] > git config --get commit.template [9ms]
+2024-01-28 09:47:17.407 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [3ms]
+2024-01-28 09:47:17.475 [info] > git status -z -uall [60ms]
+2024-01-28 09:47:22.496 [info] No remotes found in the git config file.
+2024-01-28 09:47:22.497 [info] > git config --get commit.template [8ms]
+2024-01-28 09:47:22.498 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:47:22.558 [info] > git status -z -uall [54ms]
+2024-01-28 09:47:27.571 [info] > git config --get commit.template [3ms]
+2024-01-28 09:47:27.580 [info] No remotes found in the git config file.
+2024-01-28 09:47:27.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [2ms]
+2024-01-28 09:47:27.645 [info] > git status -z -uall [55ms]
+2024-01-28 09:47:32.663 [info] No remotes found in the git config file.
+2024-01-28 09:47:32.664 [info] > git config --get commit.template [8ms]
+2024-01-28 09:47:32.664 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:47:32.732 [info] > git status -z -uall [61ms]
+2024-01-28 09:47:37.751 [info] No remotes found in the git config file.
+2024-01-28 09:47:37.752 [info] > git config --get commit.template [8ms]
+2024-01-28 09:47:37.752 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:47:37.814 [info] > git status -z -uall [55ms]
+2024-01-28 09:47:42.833 [info] No remotes found in the git config file.
+2024-01-28 09:47:42.834 [info] > git config --get commit.template [8ms]
+2024-01-28 09:47:42.834 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s6chinwe refs/remotes/s6chinwe [1ms]
+2024-01-28 09:47:42.902 [info] > git status -z -uall [59ms]
