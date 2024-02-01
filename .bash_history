@@ -193,3 +193,21 @@ rm -rf s6chinwe-projects/
 ls
 cd /student_home/
 docker exec -it s6chinwe bash
+ls
+cd ..
+ls
+cd s6chinwe-projects/
+ls
+cd ..
+rm -rf s6chinwe-projects 
+ls
+cd s6chinwe-projects 
+git add -A
+git commit -m "second"
+cd ..
+docker exec -it s6chinwe bash
+ls
+docker exec -it s6chinwe bash
+DOCKER EXEC -IT S6CHINWE BASH
+docker exec -it s6chinwe bash
+exit

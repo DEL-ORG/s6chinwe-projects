@@ -21,3 +21,93 @@
 2024-01-28 09:19:44.720 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
 2024-01-28 09:19:46.366 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
 2024-01-28 09:24:33.531 [info] New EH opened, aborting shutdown
+2024-01-28 11:08:00.300 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 11:38:54.580 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 11:38:56.369 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 11:47:03.899 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-28 11:47:03.904 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-28 11:57:02.629 [info] [127.0.0.1][9118c66d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-28 11:57:02.629 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 11:57:03.998 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 12:06:02.009 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-28 12:06:02.009 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-28 12:16:08.778 [info] [127.0.0.1][9118c66d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-28 12:16:08.778 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 12:16:09.770 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 12:24:14.077 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-28 12:24:14.078 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-28 12:33:40.009 [info] [127.0.0.1][9118c66d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-28 12:33:40.010 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 12:33:40.796 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 12:41:50.135 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-28 12:41:50.136 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-28 12:51:22.659 [info] [127.0.0.1][9118c66d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-28 12:51:22.659 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 12:51:23.663 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 12:59:37.181 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-28 12:59:37.182 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-28 13:07:11.041 [info] [127.0.0.1][9118c66d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-28 13:07:11.041 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 13:07:11.807 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 13:15:23.106 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-28 13:15:23.107 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-28 15:07:56.797 [info] [127.0.0.1][9118c66d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-28 15:07:56.797 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 15:08:00.178 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 15:16:10.098 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-28 15:16:10.099 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-28 16:50:17.179 [info] [127.0.0.1][9118c66d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-28 16:50:17.179 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 16:50:18.780 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 16:50:42.434 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 17:21:36.723 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 17:21:37.867 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 17:29:45.219 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-28 17:29:45.219 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-28 17:38:58.774 [info] [127.0.0.1][9118c66d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-28 17:38:58.775 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 17:38:59.584 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 17:47:10.217 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-28 17:47:10.218 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-28 17:57:35.482 [info] [127.0.0.1][9118c66d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-28 17:57:35.483 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 17:57:36.381 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 18:05:47.223 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-28 18:05:47.225 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-28 18:14:27.481 [info] [127.0.0.1][9118c66d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-28 18:14:27.481 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 18:14:28.279 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 18:22:50.988 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 18:22:51.553 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 18:30:59.651 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-28 18:30:59.652 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-28 18:44:57.595 [info] [127.0.0.1][9118c66d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-28 18:44:57.596 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 18:44:58.694 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 18:46:14.971 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 19:17:10.731 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 19:17:12.073 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 19:25:20.411 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-28 19:25:20.411 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-28 19:40:18.782 [info] [127.0.0.1][9118c66d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-01-28 19:40:18.782 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has reconnected.
+2024-01-28 19:40:19.703 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] The client has reconnected.
+2024-01-28 19:48:30.696 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-28 19:48:30.697 [info] [127.0.0.1][9118c66d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-01-28 22:48:38.159 [info] [127.0.0.1][9118c66d][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-01-28 22:48:40.955 [info] [127.0.0.1][4f91fef5][ExtensionHostConnection] <1452778> Extension Host Process exited with code: 0, signal: null.
+2024-01-28 22:48:40.956 [info] Last EH closed, waiting before shutting down
+2024-01-28 22:53:40.957 [info] Last EH closed, shutting down

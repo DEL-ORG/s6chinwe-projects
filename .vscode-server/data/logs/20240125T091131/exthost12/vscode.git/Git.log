@@ -1,6 +1,0 @@
-2024-01-25 11:24:37.841 [info] Log level: Info
-2024-01-25 11:24:37.842 [info] Validating found git in: "git"
-2024-01-25 11:24:37.842 [info] Using git "2.34.1" from "git"
-2024-01-25 11:24:37.842 [warning] Failed to get repository realpath for: "/home/s6chinwe/espresso". Error: ENOENT: no such file or directory, realpath '/home/s6chinwe/espresso'
-2024-01-25 11:24:41.738 [warning] Failed to get repository realpath for: "/home/s6chinwe/espresso". Error: ENOENT: no such file or directory, realpath '/home/s6chinwe/espresso'
-2024-01-25 11:24:42.082 [warning] Failed to get repository realpath for: "/home/s6chinwe/espresso". Error: ENOENT: no such file or directory, realpath '/home/s6chinwe/espresso'
