@@ -1,0 +1,9 @@
+2024-02-02 18:43:23.443 [info] Extension host with pid 685824 started
+2024-02-02 18:43:23.494 [info] Lock '/home/s6chinwe/.vscode-server/data/User/workspaceStorage/c57e87953082c302edbbdb1443f70893/vscode.lock': Lock acquired.
+2024-02-02 18:43:24.326 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*'
+2024-02-02 18:43:24.575 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-02-02 18:43:25.548 [info] Eager extensions activated
+2024-02-02 18:43:25.550 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-02 18:43:25.550 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-02 18:44:22.731 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-02 18:48:17.698 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
