@@ -211,3 +211,4 @@ docker exec -it s6chinwe bash
 DOCKER EXEC -IT S6CHINWE BASH
 docker exec -it s6chinwe bash
 exit
+docker exec -it s6chinwe bash
