@@ -1,7 +1,8 @@
-Listening on 127.0.0.1:36857
-[2024-02-02 09:27:57] info Disposed of connection to running server.
-looking for token 59f5c3a1bde3, got Some("59f5c3a1bde3")
-[2024-02-02 09:40:36] info Disposed of connection to running server.
-looking for token 59f5c3a1bde3, got Some("59f5c3a1bde3")
-[2024-02-02 10:47:02] info Disposed of connection to running server.
-looking for token 59f5c3a1bde3, got Some("59f5c3a1bde3")
+Listening on 127.0.0.1:39093
+looking for token 65d743dbe26a, got Some("65d743dbe26a")
+[2024-02-02 18:30:10] info Disposed of connection to running server.
+[2024-02-02 18:31:37] info Disposed of connection to running server.
+looking for token 65d743dbe26a, got Some("65d743dbe26a")
+[2024-02-02 18:42:51] info Disposed of connection to running server.
+looking for token 65d743dbe26a, got Some("65d743dbe26a")
+[2024-02-02 18:43:27] info Disposed of connection to running server.
