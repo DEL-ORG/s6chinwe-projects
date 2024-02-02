@@ -1,0 +1,35 @@
+2024-02-01 15:24:17.566 [info] Extension host with pid 400950 started
+2024-02-01 15:24:17.566 [error] Error: EEXIST: file already exists, open '/home/s6chinwe/.vscode-server/data/User/workspaceStorage/d70c7ea3b8057b23e5a16c462a3e7102/vscode.lock'
+2024-02-01 15:24:17.571 [info] Lock '/home/s6chinwe/.vscode-server/data/User/workspaceStorage/d70c7ea3b8057b23e5a16c462a3e7102/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-01 15:24:17.580 [info] Lock '/home/s6chinwe/.vscode-server/data/User/workspaceStorage/d70c7ea3b8057b23e5a16c462a3e7102/vscode.lock': The lock does not look stale, elapsed: 53 ms, giving up.
+2024-02-01 15:24:17.625 [info] Lock '/home/s6chinwe/.vscode-server/data/User/workspaceStorage/d70c7ea3b8057b23e5a16c462a3e7102-1/vscode.lock': Lock acquired.
+2024-02-01 15:24:18.240 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-02-01 15:24:18.243 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-02-01 15:24:18.243 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-01 15:24:18.584 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-02-01 15:24:18.584 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-02-01 15:24:19.357 [info] Eager extensions activated
+2024-02-01 15:24:19.357 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 15:24:19.358 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-01 15:24:19.609 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:24:19.850 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:24:22.412 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:24:24.912 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:30:54.349 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:30:55.626 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:40:09.586 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:40:09.849 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:40:14.636 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:43:10.102 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:43:11.367 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:52:02.653 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:52:03.941 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:55:02.890 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:55:04.135 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:58:31.584 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 15:58:32.854 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 16:11:57.044 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 16:11:58.305 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2024-02-01 19:07:49.530 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-02-01 19:16:02.069 [error] Error: read ECONNRESET
+	at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
