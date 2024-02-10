@@ -1,0 +1,42 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: s6chinwe-cronjob
+spec:
+  schedule: "* * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: postgres-backup
+            image: s6chinwe:002
+            imagePullPolicy: IfNotPresent
+            envFrom:
+            - secretRef: 
+                name: s6chinwe-secret
+          #env:
+          #- name: AWS_ACCESS_KEY_ID
+          #  value: your_aws_access_key_id
+          #- name: AWS_SECRET_ACCESS_KEY
+          #  value: your_aws_secret_access_key
+          #- name: DB_HOST
+          #  value: your_postgresql_host
+          #- name: DB_PORT
+          #  value: your_postgresql_port
+          #- name: DB_NAME
+          #  value: your_database_name
+          #- name: DB_USER
+          #  value: your_postgresql_user
+          #- name: DB_PASSWORD
+          #  value: your_postgresql_password
+          #- name: S3_BUCKET
+          #  value: your_s3_bucket_name
+          #volumeMounts:
+          #- name: backup-volume
+          #  mountPath: /backup
+          restartPolicy: OnFailure
+    #volumes:
+    #- name: backup-volume
+    #  emptyDir: {}
+

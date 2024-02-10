@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: s6chinwe-secret
+type: Opaque
+data:
+  AWS_ACCESS_KEY_ID: "QUtJQVpJMkxFMloyQ0xEU0dRWjd"
+  AWS_SECRET_ACCESS_KEY: "ajRsZldqcG5Mdkx2V01MZEpRNFlpUVozNUVHTW5vTXhRRS9YR1c2aEk="
+  AWS_DEFAULT_REGION: "dXMtZWFzdC0x"
+  DB_NAME: "czYtdXNlcg=="
+  DB_USER: "ZG9hZG1pbg=="
+  DB_HOST: "ZGItcG9zdGVyZ3JhbW1lbnQtbmN5Yy0yNjUxNS1kby11c2VyLTEyMTk4OTU3LTQuYy5kYi5vbmRpZ2l0YWxvY2VuLmNvbQ=="
+  DB_PORT: "MjUwNjA="
+  DB_PASSWORD: "QVZOU19Ia21hYXRYSkwxUWZINjBIbW5a"
+  S3_BUCKET: "ZGVsLWRiLWJhY2t1cC9TNi9zNmNoaW53ZSE="

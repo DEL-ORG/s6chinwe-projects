@@ -1,0 +1,63 @@
+2024-02-02 09:27:14.265 [info] 
+
+
+
+
+2024-02-02 09:27:14.276 [info] Extension host agent started.
+2024-02-02 09:27:15.141 [info] [127.0.0.1][793ce8ba][ManagementConnection] New connection established.
+2024-02-02 09:27:15.276 [info] [127.0.0.1][60cc9960][ExtensionHostConnection] New connection established.
+2024-02-02 09:27:25.278 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.280 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.281 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.281 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.281 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.281 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.281 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.282 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.282 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.282 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.283 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.283 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.283 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.283 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:25.291 [info] [127.0.0.1][60cc9960][ExtensionHostConnection] <192414> Launched Extension Host Process.
+2024-02-02 09:27:27.895 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:27:30.304 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 09:32:14.277 [info] New EH opened, aborting shutdown
+2024-02-02 10:46:56.407 [info] [127.0.0.1][1013abe6][ManagementConnection] New connection established.
+2024-02-02 10:46:57.159 [info] [127.0.0.1][b82e7106][ExtensionHostConnection] New connection established.
+2024-02-02 10:46:57.160 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 10:46:57.166 [info] [127.0.0.1][b82e7106][ExtensionHostConnection] <203976> Launched Extension Host Process.
+2024-02-02 10:47:01.130 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 10:47:01.131 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 10:47:01.132 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 10:47:01.132 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 10:47:01.416 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 10:47:03.560 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 10:47:03.562 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 10:47:03.563 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 10:47:03.564 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 10:47:04.465 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 10:47:05.086 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 17:26:17.446 [info] [127.0.0.1][b82e7106][ExtensionHostConnection] The client has reconnected.
+2024-02-02 17:31:17.568 [info] [127.0.0.1][60cc9960][ExtensionHostConnection] <192414> Extension Host Process exited with code: 0, signal: null.
+2024-02-02 17:46:14.274 [info] [127.0.0.1][1013abe6][ManagementConnection] The client has reconnected.
+2024-02-02 17:46:14.278 [info] [127.0.0.1][b82e7106][ExtensionHostConnection] The client has reconnected.
+2024-02-02 17:46:52.319 [info] [127.0.0.1][793ce8ba][ManagementConnection] The client has reconnected.
+2024-02-02 17:46:52.389 [error] [127.0.0.1][60cc9960][ExtensionHostConnection] Unknown reconnection token (seen before).
+2024-02-02 17:46:53.281 [info] [127.0.0.1][56666698][ExtensionHostConnection] New connection established.
+2024-02-02 17:46:53.281 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 17:46:53.288 [info] [127.0.0.1][56666698][ExtensionHostConnection] <313319> Launched Extension Host Process.
+2024-02-02 18:31:48.162 [info] [127.0.0.1][44cbc7e7][ManagementConnection] New connection established.
+2024-02-02 18:31:48.162 [info] [127.0.0.1][68353ea1][ExtensionHostConnection] New connection established.
+2024-02-02 18:31:48.163 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 18:31:48.167 [info] [127.0.0.1][68353ea1][ExtensionHostConnection] <338555> Launched Extension Host Process.
+2024-02-02 18:31:49.265 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 18:31:49.265 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 18:31:49.266 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-02-02 18:32:07.392 [info] [127.0.0.1][44cbc7e7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-02 18:32:07.434 [info] [127.0.0.1][68353ea1][ExtensionHostConnection] <338555> Extension Host Process exited with code: 0, signal: null.
+2024-02-03 04:33:56.754 [info] [127.0.0.1][56666698][ExtensionHostConnection] <313319> Extension Host Process exited with code: 0, signal: null.
+2024-02-03 04:33:56.888 [info] [127.0.0.1][b82e7106][ExtensionHostConnection] <203976> Extension Host Process exited with code: 0, signal: null.
+2024-02-03 04:33:56.888 [info] Last EH closed, waiting before shutting down
+2024-02-03 04:38:56.888 [info] Last EH closed, shutting down

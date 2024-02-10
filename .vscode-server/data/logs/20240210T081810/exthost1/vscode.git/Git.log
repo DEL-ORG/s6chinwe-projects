@@ -1,0 +1,103 @@
+2024-02-10 08:18:23.948 [info] Log level: Info
+2024-02-10 08:18:23.948 [info] Validating found git in: "git"
+2024-02-10 08:18:23.948 [info] Using git "2.34.1" from "git"
+2024-02-10 08:18:23.948 [info] > git rev-parse --show-toplevel [25ms]
+2024-02-10 08:18:23.948 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 08:37:46.723 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-10 08:37:46.723 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 08:37:53.702 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 08:37:53.702 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 08:51:49.586 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-10 08:51:49.586 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:05:23.268 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:05:23.268 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:10:09.221 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-10 09:10:09.221 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:21:33.424 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:21:33.424 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:23:14.588 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:23:14.588 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:26:32.572 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:26:32.572 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:26:33.506 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-10 09:26:33.506 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:26:38.250 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:26:38.250 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:32:17.659 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:32:17.660 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:32:29.044 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:32:29.044 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:35:50.816 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:35:50.816 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:36:15.392 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:36:15.392 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:37:36.641 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-10 09:37:36.641 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:37:39.944 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:37:39.945 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:42:34.043 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:42:34.043 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:49:06.115 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:49:06.115 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:53:07.536 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:53:07.536 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:53:07.542 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:53:07.542 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:54:53.246 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:54:53.246 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:54:56.011 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:54:56.011 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:55:26.047 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:55:26.047 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:55:42.489 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:55:42.489 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 09:58:07.365 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 09:58:07.365 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-10 11:00:36.138 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-10 11:00:36.145 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-02-10 11:00:36.163 [info] Open repository: /home/s6chinwe/backup
+2024-02-10 11:00:36.170 [info] > git fetch [8ms]
+2024-02-10 11:00:36.176 [info] > git config --get commit.template [7ms]
+2024-02-10 11:00:36.182 [info] No remotes found in the git config file.
+2024-02-10 11:00:36.183 [info] > git config --get commit.template [6ms]
+2024-02-10 11:00:36.183 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-10 11:00:36.183 [warning] No such branch: master.
+2024-02-10 11:00:36.191 [info] No remotes found in the git config file.
+2024-02-10 11:00:36.198 [info] > git config --get commit.template [3ms]
+2024-02-10 11:00:36.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-02-10 11:00:36.198 [warning] No such branch: master.
+2024-02-10 11:00:36.204 [info] No remotes found in the git config file.
+2024-02-10 11:00:36.205 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-10 11:00:36.205 [warning] No such branch: master.
+2024-02-10 11:00:36.211 [info] > git status -z -uall [2ms]
+2024-02-10 11:00:36.843 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-10 11:00:37.390 [info] No remotes found in the git config file.
+2024-02-10 11:00:37.391 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-10 11:00:37.391 [warning] No such branch: master.
+2024-02-10 11:00:37.391 [info] > git config --get commit.template [7ms]
+2024-02-10 11:00:37.398 [info] > git status -z -uall [1ms]
+2024-02-10 11:03:39.622 [info] > git fetch [4ms]
+2024-02-10 11:03:39.633 [info] No remotes found in the git config file.
+2024-02-10 11:03:39.633 [info] > git config --get commit.template [6ms]
+2024-02-10 11:03:39.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-10 11:03:39.634 [warning] No such branch: master.
+2024-02-10 11:03:39.639 [info] > git status -z -uall [1ms]
+2024-02-10 11:03:40.795 [info] No remotes found in the git config file.
+2024-02-10 11:03:40.796 [info] > git config --get commit.template [5ms]
+2024-02-10 11:03:40.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-10 11:03:40.796 [warning] No such branch: master.
+2024-02-10 11:03:40.802 [info] > git status -z -uall [2ms]
+2024-02-10 11:04:45.210 [info] No remotes found in the git config file.
+2024-02-10 11:04:45.211 [info] > git config --get commit.template [6ms]
+2024-02-10 11:04:45.211 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-10 11:04:45.211 [warning] No such branch: master.
+2024-02-10 11:04:45.840 [info] > git status -z -uall [623ms]
+2024-02-10 11:06:39.652 [info] > git fetch [4ms]
+2024-02-10 11:06:39.658 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/backup/.git/HEAD'
+2024-02-10 11:06:39.662 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/s6chinwe/backup/.git/config'
+2024-02-10 11:06:39.669 [info] > git remote --verbose [6ms]
+2024-02-10 11:06:39.669 [info] > git symbolic-ref --short HEAD [12ms]
+2024-02-10 11:06:39.674 [info] > git config --get commit.template [7ms]
+2024-02-10 11:06:39.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-10 11:06:39.675 [warning] No such branch: master.
+2024-02-10 11:06:39.711 [info] > git status -z -uall [31ms]

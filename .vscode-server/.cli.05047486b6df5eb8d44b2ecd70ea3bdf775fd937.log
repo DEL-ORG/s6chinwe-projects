@@ -1,0 +1,5 @@
+Listening on 127.0.0.1:36263
+[2024-02-10 08:18:54] info Disposed of connection to running server.
+looking for token 58f1d83c-d50d-48b2-8a99-f6f537274df2, got Some("58f1d83c-d50d-48b2-8a99-f6f537274df2")
+[2024-02-10 08:19:09] info Disposed of connection to running server.
+looking for token 58f1d83c-d50d-48b2-8a99-f6f537274df2, got Some("58f1d83c-d50d-48b2-8a99-f6f537274df2")

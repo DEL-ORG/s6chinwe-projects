@@ -1,0 +1,256 @@
+2024-02-05 13:13:37.195 [info] Log level: Info
+2024-02-05 13:13:37.195 [info] Validating found git in: "git"
+2024-02-05 13:13:37.195 [info] Using git "2.34.1" from "git"
+2024-02-05 13:13:37.195 [info] > git rev-parse --show-toplevel [24ms]
+2024-02-05 13:13:37.195 [info] fatal: detected dubious ownership in repository at '/home/s6chinwe/argo-helm'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/s6chinwe/argo-helm
+2024-02-05 13:13:37.195 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-05 13:13:37.195 [info] fatal: detected dubious ownership in repository at '/home/s6chinwe/argo-helm'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/s6chinwe/argo-helm
+2024-02-05 13:13:37.195 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-05 13:13:37.195 [info] fatal: detected dubious ownership in repository at '/home/s6chinwe/argo-helm'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/s6chinwe/argo-helm
+2024-02-05 13:13:37.195 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-05 13:13:37.195 [info] fatal: detected dubious ownership in repository at '/home/s6chinwe/argo-helm'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/s6chinwe/argo-helm
+2024-02-05 13:14:20.568 [info] > git rev-parse --show-toplevel [11ms]
+2024-02-05 13:14:20.568 [info] fatal: detected dubious ownership in repository at '/home/s6chinwe/argo-helm'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/s6chinwe/argo-helm
+2024-02-05 15:35:30.932 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-05 15:35:30.932 [info] fatal: detected dubious ownership in repository at '/home/s6chinwe/argo-helm'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/s6chinwe/argo-helm
+2024-02-05 15:37:24.814 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-05 15:37:24.821 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-02-05 15:37:24.838 [info] Open repository: /home/s6chinwe/argo-helm
+2024-02-05 15:37:24.851 [info] > git config --get commit.template [6ms]
+2024-02-05 15:37:24.852 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 15:37:24.858 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:37:24.859 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:37:24.872 [info] > git status -z -uall [5ms]
+2024-02-05 15:37:24.914 [info] > git config --get commit.template [6ms]
+2024-02-05 15:37:24.915 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 15:37:24.919 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:37:24.920 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:37:25.009 [info] > git status -z -uall [84ms]
+2024-02-05 15:37:25.019 [info] > git fetch [181ms]
+2024-02-05 15:37:25.042 [info] > git config --get commit.template [3ms]
+2024-02-05 15:37:25.056 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-02-05 15:37:25.063 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:37:25.066 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-02-05 15:37:25.077 [info] > git status -z -uall [6ms]
+2024-02-05 15:37:25.408 [info] > git show --textconv :charts/argo-cd/values.yaml [7ms]
+2024-02-05 15:37:25.409 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [2ms]
+2024-02-05 15:37:25.453 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [39ms]
+2024-02-05 15:37:25.557 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-05 15:37:26.298 [info] > git config --get commit.template [6ms]
+2024-02-05 15:37:26.299 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 15:37:26.303 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:37:26.304 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:37:26.314 [info] > git status -z -uall [5ms]
+2024-02-05 15:37:26.476 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [8ms]
+2024-02-05 15:37:26.488 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [2ms]
+2024-02-05 15:37:26.566 [info] > git show --textconv :charts/argo-cd/values.yaml [3ms]
+2024-02-05 15:40:25.247 [info] > git fetch [153ms]
+2024-02-05 15:40:25.261 [info] > git config --get commit.template [6ms]
+2024-02-05 15:40:25.261 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 15:40:25.266 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:40:25.267 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:40:25.276 [info] > git status -z -uall [4ms]
+2024-02-05 15:40:26.450 [info] > git config --get commit.template [7ms]
+2024-02-05 15:40:26.451 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 15:40:26.455 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:40:26.456 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:40:26.465 [info] > git status -z -uall [4ms]
+2024-02-05 15:40:26.811 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [1ms]
+2024-02-05 15:40:26.816 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [1ms]
+2024-02-05 15:40:26.899 [info] > git show --textconv :charts/argo-cd/values.yaml [3ms]
+2024-02-05 15:43:25.445 [info] > git fetch [155ms]
+2024-02-05 15:43:25.457 [info] > git config --get commit.template [6ms]
+2024-02-05 15:43:25.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 15:43:25.462 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:43:25.463 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:43:25.472 [info] > git status -z -uall [4ms]
+2024-02-05 15:43:26.647 [info] > git config --get commit.template [5ms]
+2024-02-05 15:43:26.647 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 15:43:26.652 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:43:26.653 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-02-05 15:43:26.661 [info] > git status -z -uall [4ms]
+2024-02-05 15:43:26.818 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [2ms]
+2024-02-05 15:43:26.825 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [2ms]
+2024-02-05 15:43:26.904 [info] > git show --textconv :charts/argo-cd/values.yaml [3ms]
+2024-02-05 15:46:25.652 [info] > git fetch [165ms]
+2024-02-05 15:46:25.665 [info] > git config --get commit.template [5ms]
+2024-02-05 15:46:25.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 15:46:25.670 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:46:25.671 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:46:25.679 [info] > git status -z -uall [4ms]
+2024-02-05 15:46:26.851 [info] > git config --get commit.template [6ms]
+2024-02-05 15:46:26.851 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 15:46:26.856 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:46:26.857 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-02-05 15:46:26.865 [info] > git status -z -uall [4ms]
+2024-02-05 15:46:27.012 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [1ms]
+2024-02-05 15:46:27.018 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [1ms]
+2024-02-05 15:46:27.092 [info] > git show --textconv :charts/argo-cd/values.yaml [3ms]
+2024-02-05 15:49:25.922 [info] > git fetch [225ms]
+2024-02-05 15:49:25.936 [info] > git config --get commit.template [6ms]
+2024-02-05 15:49:25.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 15:49:25.942 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:49:25.943 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:49:25.951 [info] > git status -z -uall [4ms]
+2024-02-05 15:49:27.132 [info] > git config --get commit.template [6ms]
+2024-02-05 15:49:27.132 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 15:49:27.137 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:49:27.138 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:49:27.147 [info] > git status -z -uall [4ms]
+2024-02-05 15:49:27.316 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [1ms]
+2024-02-05 15:49:27.322 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [1ms]
+2024-02-05 15:49:27.404 [info] > git show --textconv :charts/argo-cd/values.yaml [3ms]
+2024-02-05 15:50:30.743 [info] > git config --get commit.template [6ms]
+2024-02-05 15:50:30.744 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 15:50:30.748 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:50:30.749 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:50:30.758 [info] > git status -z -uall [4ms]
+2024-02-05 15:50:35.785 [info] > git config --get commit.template [7ms]
+2024-02-05 15:50:35.785 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 15:50:35.790 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:50:35.791 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:50:35.800 [info] > git status -z -uall [4ms]
+2024-02-05 15:52:26.116 [info] > git fetch [150ms]
+2024-02-05 15:52:26.130 [info] > git config --get commit.template [7ms]
+2024-02-05 15:52:26.130 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 15:52:26.135 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:52:26.136 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:52:26.145 [info] > git status -z -uall [4ms]
+2024-02-05 15:52:27.339 [info] > git config --get commit.template [6ms]
+2024-02-05 15:52:27.339 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 15:52:27.344 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:52:27.345 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:52:27.355 [info] > git status -z -uall [4ms]
+2024-02-05 15:52:27.545 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [4ms]
+2024-02-05 15:52:27.555 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [3ms]
+2024-02-05 15:52:27.635 [info] > git show --textconv :charts/argo-cd/values.yaml [3ms]
+2024-02-05 15:58:48.248 [info] > git fetch [158ms]
+2024-02-05 15:58:48.260 [info] > git config --get commit.template [6ms]
+2024-02-05 15:58:48.261 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 15:58:48.266 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:58:48.267 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 15:58:48.276 [info] > git status -z -uall [4ms]
+2024-02-05 15:58:49.461 [info] > git config --get commit.template [6ms]
+2024-02-05 15:58:49.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 15:58:49.467 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 15:58:49.468 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-02-05 15:58:49.476 [info] > git status -z -uall [4ms]
+2024-02-05 15:58:49.625 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [1ms]
+2024-02-05 15:58:49.631 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [1ms]
+2024-02-05 15:58:49.710 [info] > git show --textconv :charts/argo-cd/values.yaml [3ms]
+2024-02-05 16:03:25.694 [info] > git fetch [157ms]
+2024-02-05 16:03:25.707 [info] > git config --get commit.template [6ms]
+2024-02-05 16:03:25.708 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 16:03:25.712 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 16:03:25.713 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 16:03:25.722 [info] > git status -z -uall [4ms]
+2024-02-05 16:03:27.373 [info] > git config --get commit.template [6ms]
+2024-02-05 16:03:27.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 16:03:27.378 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 16:03:27.379 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 16:03:27.388 [info] > git status -z -uall [4ms]
+2024-02-05 16:03:30.297 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [2ms]
+2024-02-05 16:03:30.304 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [1ms]
+2024-02-05 16:03:31.600 [info] > git show --textconv :charts/argo-cd/values.yaml [3ms]
+2024-02-05 18:29:46.912 [info] > git fetch [305ms]
+2024-02-05 18:29:46.927 [info] > git config --get commit.template [7ms]
+2024-02-05 18:29:46.927 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 18:29:46.932 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 18:29:46.933 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 18:29:46.941 [info] > git status -z -uall [4ms]
+2024-02-05 18:29:48.535 [info] > git config --get commit.template [7ms]
+2024-02-05 18:29:48.535 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 18:29:48.540 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 18:29:48.541 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 18:29:48.550 [info] > git status -z -uall [4ms]
+2024-02-05 18:29:48.703 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [1ms]
+2024-02-05 18:29:48.709 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [1ms]
+2024-02-05 18:29:48.783 [info] > git show --textconv :charts/argo-cd/values.yaml [3ms]
+2024-02-05 18:32:47.105 [info] > git fetch [148ms]
+2024-02-05 18:32:47.120 [info] > git config --get commit.template [6ms]
+2024-02-05 18:32:47.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 18:32:47.125 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 18:32:47.126 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 18:32:47.135 [info] > git status -z -uall [4ms]
+2024-02-05 18:32:48.968 [info] > git config --get commit.template [6ms]
+2024-02-05 18:32:48.969 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 18:32:48.973 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 18:32:48.974 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 18:32:48.983 [info] > git status -z -uall [4ms]
+2024-02-05 18:32:49.717 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [2ms]
+2024-02-05 18:32:49.725 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [2ms]
+2024-02-05 18:32:49.798 [info] > git show --textconv :charts/argo-cd/values.yaml [3ms]
+2024-02-05 18:37:00.931 [info] > git fetch [154ms]
+2024-02-05 18:37:00.943 [info] > git config --get commit.template [5ms]
+2024-02-05 18:37:00.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 18:37:00.949 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 18:37:00.950 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-02-05 18:37:00.958 [info] > git status -z -uall [4ms]
+2024-02-05 18:37:02.237 [info] > git config --get commit.template [7ms]
+2024-02-05 18:37:02.238 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 18:37:02.242 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 18:37:02.243 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 18:37:02.252 [info] > git status -z -uall [4ms]
+2024-02-05 18:37:02.542 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [1ms]
+2024-02-05 18:37:02.548 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [1ms]
+2024-02-05 18:37:02.627 [info] > git show --textconv :charts/argo-cd/values.yaml [3ms]
+2024-02-05 18:47:38.179 [info] > git fetch [178ms]
+2024-02-05 18:47:38.192 [info] > git config --get commit.template [6ms]
+2024-02-05 18:47:38.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 18:47:38.197 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 18:47:38.198 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 18:47:38.207 [info] > git status -z -uall [3ms]
+2024-02-05 18:47:39.537 [info] > git config --get commit.template [7ms]
+2024-02-05 18:47:39.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 18:47:39.542 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 18:47:39.543 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 18:47:39.552 [info] > git status -z -uall [4ms]
+2024-02-05 18:47:39.724 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [7ms]
+2024-02-05 18:47:39.733 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [2ms]
+2024-02-05 18:47:39.829 [info] > git show --textconv :charts/argo-cd/values.yaml [2ms]
+2024-02-05 18:50:38.379 [info] > git fetch [155ms]
+2024-02-05 18:50:38.392 [info] > git config --get commit.template [6ms]
+2024-02-05 18:50:38.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 18:50:38.397 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 18:50:38.398 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 18:50:38.407 [info] > git status -z -uall [4ms]
+2024-02-05 18:50:39.576 [info] > git config --get commit.template [6ms]
+2024-02-05 18:50:39.577 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 18:50:39.581 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 18:50:39.582 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 18:50:39.591 [info] > git status -z -uall [4ms]
+2024-02-05 18:50:39.735 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [1ms]
+2024-02-05 18:50:39.742 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [1ms]
+2024-02-05 18:50:39.817 [info] > git show --textconv :charts/argo-cd/values.yaml [3ms]
+2024-02-05 18:53:38.585 [info] > git fetch [163ms]
+2024-02-05 18:53:38.599 [info] > git config --get commit.template [6ms]
+2024-02-05 18:53:38.600 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 18:53:38.605 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 18:53:38.606 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 18:53:38.614 [info] > git status -z -uall [3ms]
+2024-02-05 18:53:39.789 [info] > git config --get commit.template [6ms]
+2024-02-05 18:53:39.790 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 18:53:39.795 [warning] ENOENT: no such file or directory, open '/home/s6chinwe/argo-helm/.git/refs/remotes/origin/main'
+2024-02-05 18:53:39.795 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-05 18:53:39.804 [info] > git status -z -uall [4ms]
+2024-02-05 18:53:40.073 [info] > git ls-files --stage -- /home/s6chinwe/argo-helm/charts/argo-cd/values.yaml [1ms]
+2024-02-05 18:53:40.080 [info] > git cat-file -s 7b8976b3510ade6f111b0a123f2ca740ce7be363 [1ms]
+2024-02-05 18:53:40.151 [info] > git show --textconv :charts/argo-cd/values.yaml [3ms]
