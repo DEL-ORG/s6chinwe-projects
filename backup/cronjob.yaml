@@ -1,0 +1,20 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: s6chinwe-cronjob
+spec:
+  schedule: "* * * * *"
+  successfulJobsHistoryLimit: 3  # Retain 3 successful job instances
+  failedJobsHistoryLimit: 1      # Retain 1 failed job instances
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: postgres-backup
+            image: s6chinwe:002
+            imagePullPolicy: IfNotPresent
+            envFrom:
+            - secretRef: 
+                name: s6chinwe-secret
+          restartPolicy: OnFailure
