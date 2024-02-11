@@ -14,7 +14,7 @@ TIMESTAMP=$(date +"%Y%m%d%H%M%S")
 BACKUP_FILE="$DB_NAME-$TIMESTAMP.sql"
 
 # Create a backup of the PostgreSQL database
-PGPASSWORD=$DB_PASSWORD pg_dump -h $DB_HOST -p $DB_PORT -U $DB_USER -d $DB_NAME > $BACKUP_DIR/$BACKUP_FILE
+PGPASSWORD=$DB_PASSWORD pg_dump -h $DB_HOST -p $DB_PORT -U $DB_USER -d $DB_NAME -Fc > $BACKUP_DIR/$BACKUP_FILE
 
 
 # Copy the backup file to the S3 bucket
