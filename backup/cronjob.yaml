@@ -12,7 +12,7 @@ spec:
         spec:
           containers:
           - name: postgres-backup
-            image: s6chinwe:002
+            image: chynwe7/backup-s3:latest
             imagePullPolicy: IfNotPresent
             envFrom:
             - secretRef: 
